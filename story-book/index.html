@@ -34,7 +34,7 @@ body {
     display: inline-block;
     font-family: serif;
 }
-a {
+a.nav {
     position: absolute;
     top: 0px;
     width: 30px;
@@ -45,6 +45,7 @@ a {
 a:hover {
     background-color: #ddd;
 }
+
 #prev {
     left:0px;
 }
@@ -53,7 +54,6 @@ a:hover {
     width: 30px;
     right:0px;
     height: 100%;
-    background-color: #f0f0f0;
 }
 #info {
     text-align: center;
@@ -72,6 +72,11 @@ a:hover {
     line-height: 20px;
     padding: 5px 10px;
     text-decoration: none;
+    background-color: #f0f0f0;
+}
+
+a#home:hover {
+    background-color: #ddd;
 }
 
 .endnote {
@@ -83,8 +88,8 @@ a:hover {
 </head>
 <body>
     <a href="../index.html" id="home">&laquo; BACK</a>
-    <a href="#" id="prev" title="previous">prev</a>
-    <a href="#" id="next" title="next">next</a>
+    <a href="#" id="prev" class="nav" title="previous">prev</a>
+    <a href="#" id="next" class="nav" title="next">next</a>
    
    <p id="info"> <span id="pages"></span>
    
@@ -92,10 +97,13 @@ a:hover {
    <div id="bookwrapper">
        <div id="bookcontent">
 		
-		
 		<p>THE UNIFORM EDITION OF THE PLAYS OF J. M. BARRIE </p><h2>A KISS FOR CINDERELLA </h2>
 		
-		
+        <div class="endnote">
+            There are 5 more chapters to this public domain play. This is just an example to demonstrate my Story Book interface. 
+            More can be found at <a target="_blank" href="https://archive.org/details/AKissForCinderella_JMBarrie">https://archive.org/details/AKissForCinderella_JMBarrie</a> <br>--Iszuddin
+        </div>
+            		
 		<span xmlns:epub="http://www.idpf.org/2007/ops" id="7" title="7" epub:type="pagebreak"/>
 		
 		
@@ -785,7 +793,8 @@ who like one mesmerised also departs stamping. </p><span xmlns:epub="http://www.
 peeps out to make sure that they are gone. She is wearing her hat and jacket, which have restored her self-respect. The tears have been disposed of with a lick of the palm. She is again a valiant soul who has had too many brushes with the police not to be able to face another with a tight lip. She is going, but she is not going without her wooden board ; law or no law she cannot do without wooden boards. She gets it from a corner where it has been artfully concealed. An imprudent glance at the Venus again dispirits her. With a tape she takes the Beauty^s measurements and then her own, with depressing results. The Gods at last pity her, and advise an examination of her rival’s foot. Excursions, alarms, transport. She compares feet and is glorified. She slips off her shoe and challenges Venus to put it on. Then, with a derisive waggle of her foot at the shamed goddess, the little enigma departs on her suspicious business, little witting that a masterpiece of a constable is on her track.) </p><span xmlns:epub="http://www.idpf.org/2007/ops" id="49" title="49" epub:type="pagebreak"/>       
 
     <div class="endnote">
-        There are 5 more chapters to this public domain play. This is just an example to demonstrate my Story Book interface. --Iszuddin
+        There are 5 more chapters to this public domain play. This is just an example to demonstrate my Story Book interface.
+        More can be found at <a target="_blank" href="https://archive.org/details/AKissForCinderella_JMBarrie">https://archive.org/details/AKissForCinderella_JMBarrie</a> <br>--Iszuddin
     </div>
 
 </div>
