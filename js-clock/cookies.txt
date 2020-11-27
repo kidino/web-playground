@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.iszuddinismail.com	TRUE	/	FALSE	1999999999	__cfduid	d65f61ec12444f9ac93c6ad1d9e7603bf1606433530
+iszuddinismail.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+
